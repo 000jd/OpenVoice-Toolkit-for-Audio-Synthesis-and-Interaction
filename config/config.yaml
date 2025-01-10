@@ -1,0 +1,10 @@
+openvoice:
+  base_path: "checkpoints/base_speakers/EN"
+  converter_path: "checkpoints/converter"
+  reference_audio: "resources_voice.mp3"
+  output_dir: "temp/output/output.wav"
+  temp_dir: "temp"
+  sampling_rate: 16000 
+  device: "cuda" 
+
+
